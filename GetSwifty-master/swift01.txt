@@ -1,0 +1,33 @@
+These are the notes.  
+You have a lot to do, so get ahold of your group and start working on the homework.
+We learned (more or less) to make tables with multiple view controllers
+Table views don't have to be hell on earth. Use the UITableViewController class.
+This makes a view that's destined to be a table.  
+The view controller is automatically the delegate and the data source.  
+ViewController is the name of the array that the tab bar uses to store view controllers.
+In Xcode you can pick the style of your table which this wild shit.
+You can get images and text in the same thing with basic(and others), but not with left detail
+You almost always use optionals if you concatenate with strings.
+Tables can have multiple sections with headers and feeters. 
+After you choose a cell in the storyboard  you can label it and customize the cells.
+A default cell can have content, image and accessory
+You can use tags to add a custom cell with a UI lbl.
+Custom stuff can(should?) be used in our final.
+NEW POWERPOINT:NAVIGATION CONTROLLERS
+Nav controllers are found everywhere
+apples default mail has a nav bar that is used to navigate through a hierarchy
+Nav bars are like view controllers, and it works very well with tableviews
+Nav controllers use a stack, because stacks can be reversed
+You will always see the thing on top of the stack
+/tab bar controllers are a arrays nav bars are stacks
+/tab bars are at the bottom and nav bars on the top
+When something is on top(onscreen), the nav bar gets the tile and left&right button
+When you go back you go to the previous layer in the stack. 
+The back button by default will the the title of the previous layer on the stack,
+If there is no back button defined for the top layers
+
+
+
+
+
+
