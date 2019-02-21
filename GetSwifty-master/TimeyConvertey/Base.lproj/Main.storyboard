@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TimeyConvertey" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="months" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9t-cP-6VS">
+                                <rect key="frame" x="37" y="133" width="58" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="58" id="dSC-bZ-8hZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="days" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="guS-CV-BuR">
+                                <rect key="frame" x="43" y="190" width="36" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIl-pj-q2G">
+                                <rect key="frame" x="186" y="189" width="173" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="seconds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOD-Xo-2Hw">
+                                <rect key="frame" x="45" y="242" width="65" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUn-Vi-yQO">
+                                <rect key="frame" x="186" y="242" width="173" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USu-Vz-IOe">
+                                <rect key="frame" x="153" y="280" width="68" height="30"/>
+                                <state key="normal" title="Convert It"/>
+                                <connections>
+                                    <action selector="convertIt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7tv-LE-mxF"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Converter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oj7-PW-uS4">
+                                <rect key="frame" x="126" y="56" width="119" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Time In Years" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6fG-Wc-ZOa">
+                                <rect key="frame" x="77" y="96" width="228" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XYC-CR-iPK">
+                                <rect key="frame" x="186" y="132" width="173" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XYC-CR-iPK" firstAttribute="leading" secondItem="T9t-cP-6VS" secondAttribute="trailing" constant="91" id="0g5-nA-Lpo"/>
+                            <constraint firstItem="USu-Vz-IOe" firstAttribute="top" secondItem="oUn-Vi-yQO" secondAttribute="bottom" constant="17" id="0z5-Qc-N7b"/>
+                            <constraint firstItem="XYC-CR-iPK" firstAttribute="trailing" secondItem="rIl-pj-q2G" secondAttribute="trailing" id="1h1-oY-YG8"/>
+                            <constraint firstItem="oj7-PW-uS4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="36" id="4fo-i7-pwh"/>
+                            <constraint firstItem="rIl-pj-q2G" firstAttribute="trailing" secondItem="oUn-Vi-yQO" secondAttribute="trailing" id="98U-P8-kTw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6fG-Wc-ZOa" secondAttribute="trailing" constant="70" id="CTO-aG-M1B"/>
+                            <constraint firstItem="MOD-Xo-2Hw" firstAttribute="baseline" secondItem="oUn-Vi-yQO" secondAttribute="baseline" id="CeY-3c-xaD"/>
+                            <constraint firstItem="guS-CV-BuR" firstAttribute="top" secondItem="T9t-cP-6VS" secondAttribute="bottom" constant="36" id="IFb-bi-oiU"/>
+                            <constraint firstItem="MOD-Xo-2Hw" firstAttribute="top" secondItem="guS-CV-BuR" secondAttribute="bottom" constant="31" id="SIk-kR-i7l"/>
+                            <constraint firstItem="USu-Vz-IOe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TbK-Ox-1yf"/>
+                            <constraint firstItem="rIl-pj-q2G" firstAttribute="leading" secondItem="oUn-Vi-yQO" secondAttribute="leading" id="dkl-ha-4os"/>
+                            <constraint firstItem="guS-CV-BuR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="eCP-tI-FU3"/>
+                            <constraint firstItem="6fG-Wc-ZOa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="fIp-i7-jpf"/>
+                            <constraint firstItem="T9t-cP-6VS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="i9g-GV-M3I"/>
+                            <constraint firstItem="MOD-Xo-2Hw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="ibo-ik-gWP"/>
+                            <constraint firstItem="6fG-Wc-ZOa" firstAttribute="top" secondItem="oj7-PW-uS4" secondAttribute="bottom" constant="19" id="iid-Nw-yGF"/>
+                            <constraint firstItem="oUn-Vi-yQO" firstAttribute="top" secondItem="rIl-pj-q2G" secondAttribute="bottom" constant="32" id="ioB-aj-1mY"/>
+                            <constraint firstItem="XYC-CR-iPK" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="j3Y-8x-Uzw"/>
+                            <constraint firstItem="XYC-CR-iPK" firstAttribute="top" secondItem="6fG-Wc-ZOa" secondAttribute="bottom" constant="6" id="oCS-7l-n47"/>
+                            <constraint firstItem="USu-Vz-IOe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="153" id="pnW-Nm-B0j"/>
+                            <constraint firstItem="XYC-CR-iPK" firstAttribute="leading" secondItem="rIl-pj-q2G" secondAttribute="leading" id="w2J-Ce-iSI"/>
+                            <constraint firstItem="oj7-PW-uS4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="xAV-97-BB6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="daysLBL" destination="rIl-pj-q2G" id="knM-JW-cKP"/>
+                        <outlet property="monthsLBL" destination="XYC-CR-iPK" id="MEb-mX-PHw"/>
+                        <outlet property="secondsLBL" destination="oUn-Vi-yQO" id="RhQ-tJ-CLE"/>
+                        <outlet property="yearTF" destination="6fG-Wc-ZOa" id="40L-KP-cxG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
