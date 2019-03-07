@@ -26,8 +26,7 @@ When you go back you go to the previous layer in the stack.
 The back button by default will the the title of the previous layer on the stack,
 If there is no back button defined for the top layers
 
-
-
-
-
-
+to make a table load every time use the func reload data inside the func view willAppear
+write code that others will understand intuitively, obvious variable names and such
+next assignment has has to be made very well, follow all the sexy naming conventions and such
+start on that as soon as possible
