@@ -30,3 +30,11 @@ to make a table load every time use the func reload data inside the func view wi
 write code that others will understand intuitively, obvious variable names and such
 next assignment has has to be made very well, follow all the sexy naming conventions and such
 start on that as soon as possible
+
+backendless should have a singleton to save objects synchronously
+aved objects get a key to match them to the database
+wrap code in try block with catch as shown in notes(hopefully)
+types cannot be passed into backendless, only objects
+use asynch for quicker but less manageable code. synchronous is easier to code. Asynch is sexier
+
+
