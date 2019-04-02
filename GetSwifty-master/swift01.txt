@@ -37,4 +37,17 @@ wrap code in try block with catch as shown in notes(hopefully)
 types cannot be passed into backendless, only objects
 use asynch for quicker but less manageable code. synchronous is easier to code. Asynch is sexier
 
+get struct to json with a json encoder.  change it back with a json decoder.  these structs must follow a codable protocol
+to have an array of anything in a codable struct, the type in the array must be codable
+the json encoder makes a struct into the json class data.  Data is just a collection of bytes, in apple
+
+for comp org there is an IEE754 standard, that only a certain number of bits can be after the decimal point (which is why some doubles get rounded up a dozen places after the decimal)
+struct gives you a description for free.
+
+look at the rubric that's on canvas to see how many comments and such need made.
+
+
+
+
+
 
