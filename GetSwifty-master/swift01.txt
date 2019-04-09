@@ -46,7 +46,11 @@ struct gives you a description for free.
 
 look at the rubric that's on canvas to see how many comments and such need made.
 
+when using core data relationships are assigned as child.parent = parentname
+any line of code that may throw an error starts with the word try. or try! or try?
+a function thta throws has to have a try block
 
+drawing things - 
 
 
 
