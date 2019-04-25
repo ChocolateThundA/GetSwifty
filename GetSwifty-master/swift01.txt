@@ -54,6 +54,8 @@ touches have 3 phases touch move and ended (optionally canacelled)
 prepare for questions on drawing on the final.
 get rid of all warnings on the final.
 
+fun fact, there might be a question about filtering with cllosures on the final, so make sure you know those
 
+look in the 
 
 
